@@ -5,4 +5,4 @@
 根目录需要解压phantomjS.exe 自己下一个就行 或者我之后看能不能放issue
 <br>
 <br>
-剩下读Readme.txt
+剩下读Readme.txt或者帮助
