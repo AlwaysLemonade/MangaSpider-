@@ -1,0 +1,17 @@
+基于PhantomJs和Selnium的爬虫（python 3.x）
+
+依赖的python包请查看requirements.txt，pytharm可直接虚拟环境读取
+
+mangabz_spider.config文件用来更改配置
+
+1.如何配置mangabz_spider.config：
+
+----------------------mangabz_spider.conf----------------------------------
+name = 租借女友                               // <- 漫画名称 可以随便起但起了就不能改了 一个名字只能对应一个url
+url = http://www.mangabz.com/279bz/         // <- 漫画主页(http://www.mangabz.com )的网址 只能爬取这个网站的漫画 
+root_path = D:\\Comics\\                    // <- 保存的本地地址（双斜杠），请最好使用英文地址，防止bug，
+---------------------------------------------------------------------------
+
+2. 配置完毕后启动update_src.bat，进度条就是解析的src
+3. 启动download_image.bat，下载解析过得src，就是直接下载漫画图片
+4. 步骤‘2’和‘3’目前不能同时进行，可能会引发一些bug。请单独启动update_src.bat及download_image.bat。
