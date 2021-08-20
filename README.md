@@ -15,8 +15,8 @@
 <p>
   <b>如何配置mangabz_spider.config:</b>
 </p>
-
-<!-- ----------------------mangabz_spider.conf---------------------------------- -->
+<h4>示例</h4>
+<!-- ----------------------mangabz_spider.conf--------------------------------- -->
 <hr>
 <p>name = 租借女友                             <em style:"color: gray"><- 漫画名称 可以随便起但起了就不能改了 一个名字只能对应一个url</em></p>
 <p>url = http://www.mangabz.com/279bz/         <em style:"color: gray"><- 漫画主页(http://www.mangabz.com )的网址 只能爬取这个网站的漫画</em> </p>
